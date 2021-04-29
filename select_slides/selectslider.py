@@ -68,3 +68,23 @@ if result:
   st.write("clicked")
 else:
   st.write("unclicked")
+
+  
+st.title("checkboxes")
+
+check_1 = st.checkbox("click option")
+st.write("state of check_1 is ",check_1)
+
+
+if check_1:
+  st.write(100*":fire:")
+  
+check_2 = st.checkbox("click option 2")
+st.write("state of check_2 is ",check_2)
+
+if check_2:
+  st.write(50*":fire:")
+
+
+
+
