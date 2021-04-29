@@ -16,6 +16,8 @@ options_level_range = range(0,100)
 
 initilise_slider_variable_from_range = st.select_slider("choose a level",options = options_level_range)
 st.write("you just chose : ",initilise_slider_variable_from_range)
+st.write("you chose %s hearts"%initilise_slider_variable_from_range,initilise_slider_variable_from_range*":hearts:")
+
 
 st.header("slider")
 
