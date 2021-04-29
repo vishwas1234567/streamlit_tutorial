@@ -29,4 +29,7 @@ initilise_slider_variable_from_range_min_max = st.slider("choose a level : ",min
 st.write("you just chose : ",initilise_slider_variable_from_range_min_max)
 
 
-
+st.title("Streamlit slider")
+st.subheader("Slider for best")
+x = st.slider("A number between 0-100",value = 50)
+st.write("you choose : ",x) 
