@@ -33,3 +33,8 @@ st.title("Streamlit slider")
 st.subheader("Slider for best")
 x = st.slider("A number between 0-100",value = 50)
 st.write("you choose : ",x) 
+
+
+st.title("new value applied in the slider variable")
+x_new = st.slider("A number between 0-100",value = 100)
+st.write("you choose for the function varialbe 100 : ",x_100)
