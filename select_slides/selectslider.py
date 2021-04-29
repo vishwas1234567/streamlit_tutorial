@@ -64,7 +64,7 @@ st.title("making buttons")
 result = st.button("vlikv here")
 st.write(result)
 
-if reuslr:
+if result:
   st.write("clicked")
 else:
   st.write("unclicked")
