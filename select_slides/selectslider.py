@@ -57,3 +57,14 @@ if page_radio_if_else == "option-a":
   st.write("welcome to 1")
 else:
   st.write("you choose",page_radio_if_else)
+
+  
+St.title("making buttons")
+
+result = st.button("vlikv here")
+st.write(result)
+
+if reuslr:
+  st.write("clicked")
+else:
+  st.write("unclicked")
