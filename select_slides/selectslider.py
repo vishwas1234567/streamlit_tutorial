@@ -1,4 +1,4 @@
-improt streamlit as st
+import streamlit as st
 st.title("StreamLit Select Slider")
 st.header("Using the python list to get the values")
 
