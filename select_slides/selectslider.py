@@ -20,5 +20,5 @@ st.write("you just chose : ",initilise_slider_variable_from_range)
 
 #you can choose to have a min and max variables
 
-initilise_slider_variable_from_range_min_max = st.select_slider("choose a level",min_value = 0.0 ,max_value = 1.0,step = 0.0001)
+initilise_slider_variable_from_range_min_max = st.select_slider("choose a level",min_value=0.0 ,max_value=1.0,step=0.1)
 st.write("you just chose : ",initilise_slider_variable_from_range_min_max)
