@@ -53,7 +53,7 @@ range_value_if_else  = ["option-a","option-b","option-c"]
 page_radio_if_else = st.radio("Click on",range_value_if_else)
 st.write("you choose",page_radio_if_else)
 
-if page_radio_if_else == "option-1":
+if page_radio_if_else == "option-a":
   st.write("welcome to 1")
 else:
   st.write("you choose",page_radio_if_else)
