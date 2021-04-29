@@ -91,5 +91,5 @@ st.title("Drop Down")
 
 
 list_box = ["","option-1","option-2","option-3","option-4"]
-select_result = st.selectbox("select your option":list_box)
+select_result = st.selectbox("select your option : ",list_box)
 st.write("you selected : ",select_result)
