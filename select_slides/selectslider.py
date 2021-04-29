@@ -49,7 +49,7 @@ st.write("you choose",page_radio)
 st.header("if else applied")
 
 st.title("Radio Button range_value_if_else")
-range_value_if_else  = ["option-1","option-2","option-3"]
+range_value_if_else  = ["option-a","option-b","option-c"]
 page_radio_if_else = st.radio("Click on",range_value_if_else)
 st.write("you choose",page_radio_if_else)
 
