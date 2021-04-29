@@ -35,6 +35,14 @@ x = st.slider("A number between 0-100",value = 50)
 st.write("you choose : ",x) 
 
 
-st.title("new value applied in the slider variable")
+st.title("new value applied in the slider variable the slider wuld be just stay stagnate at 100")
 x_100 = st.slider("A number between 0-100",value = 100)
 st.write("you choose for the function varialbe 100 : ",x_100)
+
+
+
+st.title("Radio Button")
+range_value  = ["option-1","option-2","option-3"]
+page_radio = st.radio("Click on",range_value)
+st.write("you choose",page_radio)
+
