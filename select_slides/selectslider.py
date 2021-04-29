@@ -59,7 +59,7 @@ else:
   st.write("you choose",page_radio_if_else)
 
   
-St.title("making buttons")
+st.title("making buttons")
 
 result = st.button("vlikv here")
 st.write(result)
